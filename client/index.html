@@ -1,0 +1,84 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Chess-like Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game">
+        <h1>Advanced Chess-like Game</h1>
+        <div id="board"></div>
+        <div id="controls"></div>
+        <div id="move-history"></div>
+    </div>
+    <script src="websocket.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> -->
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Chess-like Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game">
+        <h1>Advanced Chess-like Game</h1>
+        <div id="board"></div>
+        <div id="controls">
+            <form id="move-form">
+                <label for="player">Player:</label>
+                <input type="text" id="player" name="player">
+                <label for="piece">Piece:</label>
+                <input type="text" id="piece" name="piece">
+                <label for="direction">Direction:</label>
+                <input type="text" id="direction" name="direction">
+                <button type="submit">Submit Move</button>
+            </form>
+        </div>
+        <div id="move-history"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Chess-like Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game">
+        <h1>Advanced Chess-like Game</h1>
+        <div id="board"></div>
+        <div id="controls">
+            <form id="move-form">
+                <label for="player">Player:</label>
+                <select id="player" name="player">
+                    <option value="A">Player A</option>
+                    <option value="B">Player B</option>
+                </select>
+                <br>
+                <label for="piece">Piece:</label>
+                <input type="text" id="piece" name="piece" placeholder="e.g., P1, H1, H2">
+                <br>
+                <label for="direction">Direction:</label>
+                <input type="text" id="direction" name="direction" placeholder="e.g., L, R, F, B, FL, FR, BL, BR">
+                <br>
+                <button type="submit">Submit Move</button>
+            </form>
+        </div>
+        <div id="move-history"></div>
+    </div>
+    <script src="websocket.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

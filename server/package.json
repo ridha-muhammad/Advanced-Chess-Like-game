@@ -1,0 +1,13 @@
+{
+    "name": "advanced-chess-like-game-server",
+    "version": "1.0.0",
+    "description": "Server for Advanced Chess-like Game",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {
+      "ws": "^8.8.1"
+    }
+  }
+  
