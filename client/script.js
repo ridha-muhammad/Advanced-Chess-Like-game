@@ -1,5 +1,3 @@
-
-
 const boardElement = document.getElementById('board');
 const controlsElement = document.getElementById('controls');
 const moveHistoryElement = document.getElementById('move-history');
